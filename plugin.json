@@ -1,0 +1,18 @@
+{
+    "id": "nodebb-plugin-stockparser",
+    "name": "NodeBB Amazon StockParser",
+    "description": "NodeBB plugin to parse stock symbols from user content and link them.",
+    "url": "https://github.com/carbonphyber/nodebb-plugin-stockparser",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:parse.post",
+            "method": "parse",
+            "callbacked": true
+        }, {
+            "hook": "filter:parse.signature",
+            "method": "parse",
+            "callbacked": true
+        }
+    ]
+}

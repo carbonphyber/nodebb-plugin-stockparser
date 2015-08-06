@@ -1,0 +1,36 @@
+{
+  "name": "nodebb-plugin-stockparser",
+  "version": "0.0.1",
+  "description": "Rewrites amazon.com links in posts and signatures to include your affiliate tag",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carbonphyber/nodebb-plugin-stockparser"
+  },
+  "dependencies": {
+    "html-entities": ">= 1.1.3"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "amazon",
+    "affiliate",
+    "marketing",
+    "tracking"
+  ],
+  "author": {
+    "name": "carbonphyber",
+    "email": "djwortham@gmail.com"
+  },
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/carbonphyber/nodebb-plugin-stockparser/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-stockparser@0.0.1",
+  "_from": "nodebb-plugin-stockparser@~0.0.1"
+}
