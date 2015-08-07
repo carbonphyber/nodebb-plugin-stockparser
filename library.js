@@ -38,6 +38,8 @@
                 data.postData.content = StockParser.replaceTickers(data.postData.content);
             } else if (data.hasOwnProperty('userData') && data.userData.hasOwnProperty('signature')) {
                 data.userData.signature = StockParser.replaceTickers(data.userData.signature);
+            } else if (data.hasOwnProperty('parsedMessage')) {
+                data.parsedMessage = StockParser.replaceTickers(data.parsedMessage);
             }
 
             callback(null, data);

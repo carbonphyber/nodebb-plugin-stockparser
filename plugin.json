@@ -13,6 +13,10 @@
             "hook": "filter:parse.signature",
             "method": "parse",
             "callbacked": true
+        }, {
+            "hook": "filter:messaging.parse",
+            "method": "parse",
+            "callbacked": true
         }
     ]
 }
